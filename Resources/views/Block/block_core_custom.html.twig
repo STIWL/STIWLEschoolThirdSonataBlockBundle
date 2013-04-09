@@ -1,0 +1,6 @@
+{% extends 'SonataBlockBundle:Block:block_base.html.twig' %}
+{% trans_default_domain "SonataBlockBundle" %}
+{% block block %}
+    <h3 class="eschool-configuration">{% trans %}setting{% endtrans %}</h3>
+    <a href="{{ path('esolving_eschool_third_SonataAdminB_Setting_list') }}">{% trans %}settings{% endtrans %}</a>
+{% endblock %}

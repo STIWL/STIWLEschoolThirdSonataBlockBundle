@@ -1,0 +1,7 @@
+services:
+    sonata.block.service.custom:
+        class: 'Esolving\Eschool\Third\SonataBlockBundle\Block\Service\CustomBlockService'
+        arguments: [ 'sonata.block.service.custom' , '@templating']
+        tags:
+          - { name: 'sonata.block' }
+        #public: false
